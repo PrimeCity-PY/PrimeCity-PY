@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صناع المحتوى | Infinite City RP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #0a0e1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+        .preloader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        .loader {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(168, 85, 247, 0.2);
+            border-top-color: #a855f7;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="image/logo/INF_LOGO.png" alt="Infinite City RP Logo">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="rules.html">القوانين</a></li>
+                    <li><a href="content-creators.html">صناع المحتوى</a></li>
+                    <li><a href="store.html">المتجر</a></li>
+                    <li><a href="apply.html">طلب التفعيل</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-banner">
+            <img src="image/GIF/BANNER 2.gif" alt="Banner" class="hero-image">
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb">
+                <span>الرئيسية</span>
+                <i class="fas fa-chevron-left"></i>
+                <span>صناع المحتوى</span>
+            </nav>
+
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1 class="page-title">صناع المحتوى</h1>
+                <p class="page-subtitle">تعرف على صناع المحتوى المميزين في مجتمع Infinite City RP</p>
+            </div>
+
+            <!-- Featured Creators Section -->
+            <section class="featured-creators-section">
+                <h2 class="section-title">النجم الأبرز</h2>
+                <div class="featured-creator">
+                    <div class="featured-avatar">
+                        <img src="image/GIF/LOGO_INF.gif" alt="Infinite City RP" class="featured-img">
+                        <div class="live-indicator">
+                            <div class="live-dot"></div>
+                            <div class="live-pulse"></div>
+                            <span>LIVE</span>
+                        </div>
+                    </div>
+                    <div class="featured-info">
+                        <div class="featured-badge">
+                            <i class="fas fa-crown"></i>
+                            <span>المؤسس</span>
+                        </div>
+                        <h3 class="featured-name">Abu Yousef</h3>
+                        <p class="featured-description">مؤسس سيرفر Infinite City RP وصانع محتوى محترف</p>
+                        <div class="featured-stats">
+                            <div class="stat-item">
+                                <i class="fa-brands fa-kickstarter"></i>
+                                <span>Kick</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fab fa-tiktok"></i>
+                                <span>TikTok</span>
+                            </div>
+                        </div>
+                        <div class="featured-social">
+                            <a href="https://kick.com/abuyousef1" target="_blank" class="social-btn kick">
+                                <i class="fa-brands fa-kickstarter"></i>
+                                <span>Kick</span>
+                            </a>
+                            <a href="https://www.youtube.com/@Inf-abuyousef" target="_blank" class="social-btn youtube">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                            <a href="https://www.tiktok.com/@infinite.city5?_r=1&_t=ZN-93PsgissCTm" target="_blank" class="social-btn tiktok">
+                                <i class="fab fa-tiktok"></i>
+                                <span>TikTok</span>
+                            </a>
+                            <a href="https://www.instagram.com/infinitecity1?utm_source=qr" target="_blank" class="social-btn instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Content Creators Grid -->
+            <section class="content-creators-section">
+                <h2 class="section-title">صناع المحتوى</h2>
+                <div class="creators-grid">
+                    <!-- Creator 1 -->
+                    <div class="creator-card">
+                        <div class="creator-avatar">
+                            <img src="https://picsum.photos/seed/creator1/300/300.jpg" alt="صانع محتوى">
+                            <div class="creator-status online">
+                                <i class="fas fa-circle"></i>
+                                <span>Online</span>
+                            </div>
+                        </div>
+                        <div class="creator-info">
+                            <h3 class="creator-name">Player One</h3>
+                            <p class="creator-role">لاعب محترف</p>
+                            <div class="creator-stats">
+                                <div class="stat">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                    <span>1.2K</span>
+                                </div>
+                            </div>
+                            <div class="creator-social">
+                                <a href="https://kick.com" target="_blank" class="social-link kick">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Creator 2 -->
+                    <div class="creator-card">
+                        <div class="creator-avatar">
+                            <img src="https://picsum.photos/seed/creator2/300/300.jpg" alt="صانع محتوى">
+                            <div class="creator-status live">
+                                <i class="fas fa-circle"></i>
+                                <span>LIVE</span>
+                            </div>
+                        </div>
+                        <div class="creator-info">
+                            <h3 class="creator-name">Gamer Pro</h3>
+                            <p class="creator-role">ستريمر</p>
+                            <div class="creator-stats">
+                                <div class="stat">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                    <span>3.5K</span>
+                                </div>
+                            </div>
+                            <div class="creator-social">
+                                <a href="https://kick.com" target="_blank" class="social-link kick">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Creator 3 -->
+                    <div class="creator-card">
+                        <div class="creator-avatar">
+                            <img src="https://picsum.photos/seed/creator3/300/300.jpg" alt="صانع محتوى">
+                            <div class="creator-status offline">
+                                <i class="fas fa-circle"></i>
+                                <span>Offline</span>
+                            </div>
+                        </div>
+                        <div class="creator-info">
+                            <h3 class="creator-name">Stream Master</h3>
+                            <p class="creator-role">صانع محتوى</p>
+                            <div class="creator-stats">
+                                <div class="stat">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                    <span>800</span>
+                                </div>
+                            </div>
+                            <div class="creator-social">
+                                <a href="https://kick.com" target="_blank" class="social-link kick">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Creator 4 -->
+                    <div class="creator-card">
+                        <div class="creator-avatar">
+                            <img src="https://picsum.photos/seed/creator4/300/300.jpg" alt="صانع محتوى">
+                            <div class="creator-status online">
+                                <i class="fas fa-circle"></i>
+                                <span>Online</span>
+                            </div>
+                        </div>
+                        <div class="creator-info">
+                            <h3 class="creator-name">RP Expert</h3>
+                            <p class="creator-role">لاعب متخصص</p>
+                            <div class="creator-stats">
+                                <div class="stat">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                    <span>2.1K</span>
+                                </div>
+                            </div>
+                            <div class="creator-social">
+                                <a href="https://kick.com" target="_blank" class="social-link kick">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Creator 5 -->
+                    <div class="creator-card">
+                        <div class="creator-avatar">
+                            <img src="https://picsum.photos/seed/creator5/300/300.jpg" alt="صانع محتوى">
+                            <div class="creator-status live">
+                                <i class="fas fa-circle"></i>
+                                <span>LIVE</span>
+                            </div>
+                        </div>
+                        <div class="creator-info">
+                            <h3 class="creator-name">Content King</h3>
+                            <p class="creator-role">صانع محتوى</p>
+                            <div class="creator-stats">
+                                <div class="stat">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                    <span>5.8K</span>
+                                </div>
+                            </div>
+                            <div class="creator-social">
+                                <a href="https://kick.com" target="_blank" class="social-link kick">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Creator 6 -->
+                    <div class="creator-card">
+                        <div class="creator-avatar">
+                            <img src="https://picsum.photos/seed/creator6/300/300.jpg" alt="صانع محتوى">
+                            <div class="creator-status offline">
+                                <i class="fas fa-circle"></i>
+                                <span>Offline</span>
+                            </div>
+                        </div>
+                        <div class="creator-info">
+                            <h3 class="creator-name">Gamer Legend</h3>
+                            <p class="creator-role">لاعب أسطوري</p>
+                            <div class="creator-stats">
+                                <div class="stat">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                    <span>1.5K</span>
+                                </div>
+                            </div>
+                            <div class="creator-social">
+                                <a href="https://kick.com" target="_blank" class="social-link kick">
+                                    <i class="fa-brands fa-kickstarter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="rules.html">القوانين</a></li>
+                        <li><a href="content-creators.html">صناع المحتوى</a></li>
+                        <li><a href="store.html">المتجر</a></li>
+                        <li><a href="apply.html">طلب التفعيل</a></li>
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">تواصل معنا</h3>
+                    <div class="social-links">
+                        <a href="https://discord.gg/F3xzrMs8" target="_blank" class="social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="https://kick.com/AbuYousef1" target="_blank" class="social-link">
+                            <i class="fa-brands fa-kickstarter"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@Inf-abuyousef" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/infinitecity1?utm_source=qr" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@infinite.city5?_r=1&_t=ZN-93PsgissCTm" target="_blank" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://creators.sa/infabuyousef" target="_blank" class="social-link">
+                            <i class="fas fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Infinite City RP. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="العودة للأعلى">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Support Floating Button -->
+    <a href="https://creators.sa/infabuyousef" target="_blank" class="support-float-btn">
+        <i class="fas fa-heart"></i>
+        <span>ادعم المشروع</span>
+    </a>
+
+    <!-- Discord Login Button -->
+    <a href="#" id="discordLoginBtn" class="home-hero-btn">
+        <i class="fab fa-discord"></i>
+        <span>تسجيل الدخول عبر ديسكورد</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
