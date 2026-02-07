@@ -142,8 +142,8 @@ function initDiscordLogin() {
     if (!loginBtn) return;
 
     const CLIENT_ID = '1462616394012295270'; 
-    // السطر القادم هو الأهم: يأخذ رابط الصفحة الحالية تلقائياً
-    const REDIRECT_URI = encodeURIComponent(window.location.origin + window.location.pathname);
+    // السطر القادم سيقوم بتحويل الرابط تلقائياً ليتطابق مع ديسكورد
+    const REDIRECT_URI = encodeURIComponent('https://infinitecitycfw-source.github.io/infinitecitycfw/index.html');
     
     const AUTH_URL = `https://discord.com/api/oauth2/authorize?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=token&scope=identify`;
 
